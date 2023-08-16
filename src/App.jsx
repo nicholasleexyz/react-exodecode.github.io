@@ -52,10 +52,22 @@ function App() {
             <img src="/assets/jumpyBug_paused.png" className='song-image' id='song-image' />
 
             <div className="song-controls">
-              <img src="/assets/navigate_before_FILL0_wght400_GRAD0_opsz48.svg" className="song-control-img" id="before" onClick={before}/>
-              <img src="/assets/play_circle_FILL0_wght400_GRAD0_opsz48.svg" className="song-control-img" id="play" onClick={play} hidden/>
-              <img src="/assets/pause_circle_FILL0_wght400_GRAD0_opsz48.svg" className="song-control-img" id="pause" onClick={pause} />
-              <img src="/assets/navigate_next_FILL0_wght400_GRAD0_opsz48.svg" className="song-control-img" id="next" onClick={next}/>
+              <img
+                src="/assets/navigate_before_FILL0_wght400_GRAD0_opsz48.svg"
+                className="song-control-img"
+                onClick={before}/>
+              <img
+                src="/assets/play_circle_FILL0_wght400_GRAD0_opsz48.svg"
+                className="song-control-img"
+                onClick={play} hidden/>
+              <img
+                src="/assets/pause_circle_FILL0_wght400_GRAD0_opsz48.svg"
+                className="song-control-img"
+                onClick={pause} />
+              <img
+                src="/assets/navigate_next_FILL0_wght400_GRAD0_opsz48.svg"
+                className="song-control-img"
+                onClick={next}/>
             </div>
           </div>
 
